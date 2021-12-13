@@ -13,3 +13,6 @@ insert into employee_payroll(Name,Salary,Start) values
 ( 'Mantasha', 300000, '2021-10-13'),
 ( 'Kashish', 280000, '2021-05-25'),
 ( 'Enayat', 480000, '2021-09-10');
+
+/*UC4*/
+select * from employee_payroll;
