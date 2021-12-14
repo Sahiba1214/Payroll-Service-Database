@@ -20,3 +20,8 @@ select * from employee_payroll;
 select Name,Salary from employee_payroll where name = 'Sahiba';
 select * from employee_payroll
 where start between cast('2021-10-01' as date) and getdate();
+
+/*UC6*/
+alter table employee_payroll add Gender char(1);
+update employee_payroll set Gender = 'F' where name = 'Sahiba' or name = 'Mantasha' or name = 'Kashish';
+update employee_payroll set Gender = 'F' where name = 'Enayat';
